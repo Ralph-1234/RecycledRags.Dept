@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="RecycledRags.jpg" type="image/jpg">
+    <link rel="stylesheet" href="signup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>SIGN UP</title>
+</head>
+<body>
+  <div class="container">
+    <form>
+        <h2>Sign Up</h2>
+        <input type="text" required placeholder="USERNAME">
+        <input type="password" required placeholder="PASSWORD">
+        <input autocomplete="confirm-password" type="password" required placeholder="CONFIRM PASSWORD">
+
+        <button type="submit" onclick="window.location.href='next.html'" >NEXT</button>
+
+    </form>
+</div>
+  
+</body>
+<script>
+    function show() {
+      var password = document.getElementById("password");
+      var icon = document.querySelector(".fas");
+
+      // ========== Checking type of password ===========
+      if (password.type === "password") {
+        password.type = "text";
+      } else {
+        password.type = "password";
+      }
+    }
+  </script>
+</html>

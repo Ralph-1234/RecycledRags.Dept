@@ -1,0 +1,208 @@
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    a{
+        font-size: 14px
+    }
+    h2{
+        font-size: 14px;
+    }
+}
+
+body{
+    background-color: black;
+    font-family: 'Poppins';
+}
+header{
+    position: fixed;
+    width: 85%;
+    padding: 10px 9%;
+    top: 0;
+    left: 0;
+    background-color: rgb(226, 186, 99);
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+header #profile{
+    width: 55px;
+}
+header #logo{
+    width: 100px;
+    border-radius: 50px;
+}
+
+#menu-icon{
+    position: relative;
+    display: flex;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.menus{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 240px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+.menus a{
+    margin: 25px;
+    border-radius: 5px;
+    color: rgb(228, 226, 226);
+    font-weight: bold;
+    font-size: 25px;
+}
+.menus a:hover{
+    color: rgb(221, 182, 98);
+    text-decoration: underline;
+}
+
+.menus.active {
+    right: 0;
+}
+
+.menu-title{
+    border-radius: 8px;
+    box-shadow: -2px 5px 10px rgba(227, 227, 227, 0.459);
+    background-color: rgba(0, 0, 0, 0.486);
+    margin-top: 15%;
+    color: rgba(244, 244, 244, 0.979);
+    text-align: center;
+    font-size: 50px;
+}
+
+#menu-close{
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+.items{
+    position: static;
+    text-align: center;
+    width: 100%;
+    margin-left: -3%;
+    margin-top: 28%;
+    display: flex;
+}
+.lower a{
+    font-size: small;
+    margin-left: 48%;
+}
+.top a{
+    font-size: small;
+    margin-left: 60%;
+}
+.bag a{
+    font-size: small;
+    margin-left: 30%;
+}
+.shoes a{
+    font-size: small;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+.lower img{
+    border-radius: 10px;
+    width: 57%;
+    transition: 0.5s;
+}
+.top img{
+    border-radius: 10px;
+    width: 58%;
+    transition: 0.5s;
+}
+.bag img{
+    margin-left: -3%;
+    border-radius: 10px;
+    width: 54%;
+    transition: 0.5s;
+}
+.shoes img{
+    margin-right: 50px;
+    border-radius: 10px;
+    width: 57%;
+    transition: 0.5s;
+}
+.top:hover img{
+    transform: scale(1.1);
+}
+.lower:hover img{
+    transform: scale(1.1);
+}
+
+.bag:hover img{
+    transform: scale(1.1);
+}
+
+.shoes:hover img{
+    transform: scale(1.1);
+}
+
+.info{
+    margin-top: 4%;
+    border: 1px solid;
+}
+.latest{
+}
+.latest img{
+    border-radius: 8px;
+    margin: 5%;
+    width: 40%;
+}
+.latest .teaser{
+    border-radius: 8px;
+    margin-left: 2%;
+    margin-bottom: 4%;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    color: white;
+}
+.latest #latest{
+    text-decoration: underline;
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 0 70px rgb(255, 255, 255);
+    text-align: center;
+    align-items: center; 
+    background-color:  rgb(226, 186, 99);
+}
+footer a{
+    color: black;
+}
+#special:hover{
+    color: rgb(254, 254, 254);
+    text-decoration: underline;
+}
+

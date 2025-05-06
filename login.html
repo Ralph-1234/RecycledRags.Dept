@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="RecycledRags.jpg" type="image/jpg">
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>RDD LOGIN PAGE</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="username">
+            <img id="profile" src="profile_icon.png">
+            <h2>LOGIN</h1>
+            <p>USERNAME:</p>
+            <input id="username" type="text" required placeholder="USERNAME">
+        </div>
+
+        <div class="password">
+            <p>PASSWORD:</p>
+            <input id="password" type="password" required placeholder="PASSWORD">
+            <p></p>
+
+            <p><a id="next" href="contentpage.html">LOGIN</a></p>
+        </div>
+
+    </div>
+
+</body>
+<script>
+    function show(){
+      var password = document.getElementById("password");
+      var icon = document.querySelector(".fas")
+
+      // ========== Checking type of password ===========
+      if(password.type === "password"){
+        password.type = "text";
+      }
+      else {
+        password.type = "password";
+      }
+    };
+  </script>
+</html>

@@ -1,0 +1,121 @@
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    a{
+        font-size: 18px
+    }
+    h2{
+        font-size: 28px;
+    }
+}
+
+body{
+    background-color: black;
+    font-family: 'Poppins';
+}
+header{
+    position: fixed;
+    width: 85%;
+    padding: 5px 9%;
+    top: 0;
+    background-color: rgb(226, 186, 99);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+header #profile{
+    width: 55px;
+}
+header #logo{
+    width: 80px;
+    border-radius: 50px;
+}
+
+
+header a{
+    padding: 10px 0 10px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 90px;
+    border-radius: 5px;
+}
+header a:hover{
+    border: 1px solid black;
+}
+.main{
+    margin-top: 20%;
+    align-items: center;
+    text-align: center;
+
+}
+.main .logo{
+    border: 3px solid rgba(255, 255, 255, 0.659);
+    border-radius: 220px;
+    width: 420px;
+}
+.main p{
+    font-size: large;
+    color: white;
+    margin: 5%;
+}
+h2{
+    font-size: xx-large;
+    margin: 3%;
+    color: white;
+}
+h3{
+    margin: 5%;
+    text-align: left;
+    font-size: xx-large;
+    color: white;
+}
+.main #services {
+    margin-top: -3%;
+    text-align: left;
+}
+.main .dhl{
+    margin-top: -40px;
+    width: 50px;
+}
+.main #story{
+    text-align: right;
+}
+.bruh{
+    width: 350px;
+    border-radius: 60px;
+}
+
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+footer a:hover{
+    color: white;
+}
+footer p{
+    background-color: transparent;
+    border: none;
+}
+footer{
+    text-align: center;
+    background-color: #e2ba63;
+    position: sticky;
+    width: 100%;
+    box-shadow: 2px 0 50px rgba(245, 243, 243, 0.582);
+    align-items: center;
+}
+footer h2{
+    color: black;
+    margin: 0;
+    font-size: large;
+}

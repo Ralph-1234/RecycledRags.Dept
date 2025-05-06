@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="RecycledRags.jpg" type="image/jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="contactus.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init({
+        publicKey: "0dAF2AyPyxoVmbvFu",
+        });
+    })();
+</script>
+<script src="contactus.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <a href="contentpage.html">BACK</a>
+            <h2>Contact Us</h2>
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="email" placeholder="Email">
+            <input type="text" id="phone" placeholder="Phone No.">
+
+            <textarea id="message" rows="5" placeholder="Message..."></textarea>
+            <button type="submit" onclick="sendEmail()" >Submit</button>
+
+        </form>
+    </div>
+
+</body>
+</html>

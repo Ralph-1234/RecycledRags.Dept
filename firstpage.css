@@ -1,0 +1,90 @@
+
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    a{
+        font-size: 14px
+    }
+}
+
+body{
+    background-image: url(RecycledRags.jpg);
+    background-size: contain;
+    font-family: 'Poppins';
+    background-color: black;
+}
+.container{
+    margin-top: 12%;
+    border-radius: 5px;
+    width: 550px;
+    height: 500px;
+    background-color: rgb(226, 186, 99);
+    justify-self: center;
+    border: 3px solid white;
+    text-align: center;
+}
+#logo{
+    margin-top: 25px;
+    width: 80px;
+    border-radius: 50px;
+}
+#profile{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    width: 80px;
+    border-radius: 50px;
+}
+a{
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    color: white
+}
+p{
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.842);
+    justify-self: center;
+    width: 250px;
+    height: 50px;
+    border: 1px solid white;
+}
+footer a{
+    font-size: medium;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+footer a:hover{
+    color: white;
+}
+footer p{
+    padding-top: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+}
+footer{
+    margin: 0;
+    margin-top: 45px;
+    text-align: center;
+    background-color: #e2ba63;
+    position:fixed;
+    width: 100%;
+    box-shadow: 2px 0 50px rgba(245, 243, 243, 0.582);
+    align-items: center;
+}
+h1{
+    font-size: medium;
+}
+h3{
+    font-size: medium;
+}

@@ -1,0 +1,86 @@
+
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    a{
+        font-size: 14px
+    }
+}
+
+body{
+    font-family: 'Poppins';
+    background-color: black;
+    background-image: url(RecycledRags.jpg);
+    background-size: contain;
+}
+.container{
+    border-radius: 5px;
+    width: 650px;
+    height: 650px;
+    background-color: rgb(226, 186, 99);;
+    justify-self: center;
+    border: 3px solid white;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+#logo{
+    margin-top: 10px;
+    width: 80px;
+    border-radius: 50px;
+}
+#profile{
+    margin-top: 15px;
+    width: 80px;
+    border-radius: 50px;
+}
+a{
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    color: white
+}
+p #next{
+    font-weight: bolder;
+    color: black;
+    padding: 1em;
+    background-color: white;
+    border-radius: 8px;
+}
+p #next:hover{
+    border: 1px solid black;
+    text-decoration: underline;
+}
+p{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 35px;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    justify-self: center;
+    width: 250px;
+    height: 50px;
+}
+input{
+    padding: 1em;
+    border-radius: 5px;
+}
+
+:placeholder-shown{
+    font-weight: bold;
+    color: white;
+}
+
+.username #username{
+    width: 50%;
+    height: 50%;
+}
+
+.password #password{
+    width: 50%;
+}

@@ -1,0 +1,107 @@
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    a{
+        font-size: 14px
+    }
+    h2{
+        font-size: 14px;
+    }
+}
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+body{
+    background-image: url(RecycledRags.jpg);
+    background-size: contain;
+    font-weight: bold;
+    background-color: rgb(132, 128, 128);
+    font-family: 'Poppins';
+}
+.inputbox img{
+    width: 180px;
+    border-radius: 8px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+}
+
+.container form{
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 700px;
+    background-color: rgb(226, 186, 99);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container form .row .col{
+    flex: 1 1 250px;
+}
+
+.container form .row .col .inputbox{
+    margin: 15px 0;
+}
+
+.container form .row .col .inputbox span{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.container form .row .col .inputbox input{
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #040404e6;
+    background-color: #ecebe8fa;
+    padding: 10px 15px ;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.container form .row .col .inputbox input:focus{
+    border: 2px solid;
+}
+
+.container form .submit-btn{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.container form .submit-btn:hover{
+    border: 2px solid black;
+}
+.container h4{
+    margin-top: 35px;
+}
+.container a{
+    border-radius: 5px;
+    padding: 2px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+.container a:hover{
+    border: 2px solid black;
+}
